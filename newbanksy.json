@@ -1,16 +1,17 @@
 {  
    "origin":[  
-      "#subject# #verb# #noun#.",
-      "[s:#subject#] #isActually#",
-      "#subject# #verb# #noun#.",
-      "[s:#subject#] #isActually#",
-      "[s:#subject#] #smoking#"
+      "#subject.capitalize# #verb# #noun#.",
+      "[s:#subject.capitalize#] #isActually#",
+      "#subject.capitalize# #verb# #noun#.",
+      "[s:#subject.capitalize#] #isActually#",
+      "[s:#subject.capitalize#] #smoking#",
+	"[s:#subject.capitalize#] #smoking# Also,  #noun#."
    ],
    "isActually":[  
-      "#s# #verb# #noun#. #s# is actually #noun#."
+      "#s# #verb# #noun#. The #s# is actually #noun#."
    ],
    "smoking":[  
-      "#s# #verb# #noun#. (#s# is smoking a cigarette.)"
+      "#s# #verb# #noun#. (The #s# is smoking a cigarette.)"
    ],
    "subject":[  
       "Hitler",
@@ -20,21 +21,21 @@
       "Mickey Mouse",
       "Walt Disney",
       "Minnie Mouse",
-      "A Riot Cop",
-      "A Riot Cop",
-      "A Riot Cop",
+      "Riot Cop",
+      "Riot Cop",
+      "Riot Cop",
       "Society",
       "Charlie Brown",
       "Snoopy",
       "Calvin",
-      "A Buddhist monk",
-      "The Dali Lama",
+      "Buddhist monk",
+      "Dali Lama",
       "Putin",
       "Hobbes",
       "Social media",
-      "The internet",
-      "A child",
-      "A little girl",
+      "Internet",
+      "child",
+      " little girl",
       "Twitter",
       "Russian hackers",
       "Hamburglar",
@@ -43,12 +44,19 @@
       "North Korea",
       "Capitalism",
       "Communism",
-      "A CIA agent",
+      "CIA agent",
       "Snowden",
       "Marx",
-      "The Koch Brothers",
+      "Koch Brothers",
       "Kim Jong Un",
-      "Facebook"
+      "Facebook",
+	"Pac-Man ghosts",
+	"Pac-Man",
+	"Ms. Pac-Man",
+	"Queen Elizabeth",
+"Queen Elizabeth",
+"Queen Elizabeth",
+"Prince Charles"
    ],
    "verb":[  
       "smoking",
@@ -88,3 +96,5 @@
       "Occupy Wall Street"
    ]
 }
+
+
